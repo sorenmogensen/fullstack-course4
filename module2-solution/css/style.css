@@ -1,13 +1,16 @@
 * {
   box-sizing: border-box;
 }
+h1{
+  text-align:center;
+}
 section{
   background-color:#ccc;
   border:solid #000 1px;
   margin:10px;
   float:left;
   position:relative;
-  padding-top:3em .5em .5em;
+  padding:3em .5em .5em;
 }
 section > h1 {
   display:inline-block;
