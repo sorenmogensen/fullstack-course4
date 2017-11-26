@@ -32,7 +32,10 @@ section:nth-child(3) > h1{
   background-color:#cff;
 }
 @media (max-width: 767px) { /* Mobile */
-  margin:10px 0;
+  section{
+    width:90%;
+    margin:10px auto;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) { /* Tablet */
   section{
