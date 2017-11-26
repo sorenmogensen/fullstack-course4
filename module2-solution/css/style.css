@@ -18,7 +18,9 @@ section > h2 {
   position:absolute;
   top:0;
   right:0;
-  border:solid #000 1px;
+  border-style:solid;
+  border-color:#000;
+  border-width:0 0 1px 1px;
   margin:0;
   padding:.1em 1em;
   font-size:125%;
