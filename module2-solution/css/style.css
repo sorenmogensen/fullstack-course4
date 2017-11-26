@@ -21,9 +21,9 @@ section:nth-child(2) > h1{
 section:nth-child(3) > h1{
   background-color:#cff;
 }
-@media (max-width: 767px) { // Mobile
+@media (max-width: 767px) { /* Mobile */
 }
-@media (min-width: 768px) and (max-width: 991px) { // Tablet
+@media (min-width: 768px) and (max-width: 991px) { /* Tablet */
   section{
     width: 50%;
   }
@@ -31,7 +31,7 @@ section:nth-child(3) > h1{
     width:100%;
   }
 }
-@media (min-width: 992px) { // Desktop
+@media (min-width: 992px) { /* Desktop */
   section{
     width: 33.3%;
   }
