@@ -4,6 +4,8 @@
 section{
   background-color:#ccc;
   border:solid #000 1px;
+  margin:10px;
+  float:left;
 }
 section > h1 {
   display:inline-block;
@@ -22,18 +24,20 @@ section:nth-child(3) > h1{
   background-color:#cff;
 }
 @media (max-width: 767px) { /* Mobile */
+  margin:10px 0;
 }
 @media (min-width: 768px) and (max-width: 991px) { /* Tablet */
   section{
-    width: 50%;
+    width: calc(50% - 20px);
   }
   section:last-child {
     width:100%;
+    clear:left;
   }
 }
 @media (min-width: 992px) { /* Desktop */
   section{
-    width: 33.3%;
+    width: calc(33.3% - 20px);
   }
 }
 
