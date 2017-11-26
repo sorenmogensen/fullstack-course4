@@ -1,7 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+section{
+  background-color:#ccc;
+  border:solid #000 1px;
+}
+section > h1 {
+  display:inline-block;
+  position:relative;
+  right:0;
+  border:solid #000 1px;
+}
+section:nth-child(1) > h1[
+  background-color:#fcc;
+}
+section:nth-child(2) > h1{
+  background-color:#f00;
+  color:#fff;
+}
+section:nth-child(3) > h1{
+  background-color:#cff;
+}
 @media (max-width: 767px) { // Mobile
 }
 @media (min-width: 768px) and (max-width: 991px) { // Tablet
+  section{
+    width: 50%;
+  }
+  section:last-child {
+    width:100%;
+  }
 }
 @media (min-width: 992px) { // Desktop
+  section{
+    width: 33.3%;
+  }
 }
 
