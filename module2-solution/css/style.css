@@ -37,7 +37,7 @@ section:nth-child(3) > h2{
 }
 @media (max-width: 767px) { /* Mobile */
   section{
-    width:90%;
+    width:80%;
     margin:20px auto;
     float:none;
   }
