@@ -18,14 +18,14 @@ section > h1 {
   margin:0;
   padding:.1em 1em;
 }
-section:nth-child(0) > h1{
+section:nth-child(1) > h1{
   background-color:#fcc;
 }
-section:nth-child(1) > h1{
+section:nth-child(2) > h1{
   background-color:#f00;
   color:#fff;
 }
-section:nth-child(2) > h1{
+section:nth-child(3) > h1{
   background-color:#cff;
 }
 @media (max-width: 767px) { /* Mobile */
